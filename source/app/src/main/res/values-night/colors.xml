@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="day_night_foreground">#FFFFFF</color>
+    <color name="day_night_background">#000000</color>
+    <color name="text_primary_to_white">#FFFFFF</color>
+
+
+    <bool name="statusBarColorLight">true</bool>
+
+    <color name="text_url">#5D5DFB</color>
+</resources>

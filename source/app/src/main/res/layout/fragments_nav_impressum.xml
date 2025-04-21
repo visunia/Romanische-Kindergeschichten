@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_night_background"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_margin="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/ic_round"
+                ></ImageView>
+
+            <TextView
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_primary_to_white"
+                android:id="@+id/tvWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="www.romontsch.ch" />
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_primary_to_white"
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="info@romontsch.ch" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/day_night_foreground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Verein Romontschissimo" />
+
+            <TextView
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/day_night_foreground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Im Blatt E5" />
+
+            <TextView
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/day_night_foreground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="6345 Neuheim" />
+
+            <TextView
+                android:id="@+id/tvAppVersion"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/textsize"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="App version X.X" />
+
+            <TextView
+                android:id="@+id/tvTermsOfUse"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_primary_to_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/terms_of_use" />
+
+            <TextView
+                android:id="@+id/tvPrivacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/text_primary_to_white"
+                android:textSize="@dimen/textsize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

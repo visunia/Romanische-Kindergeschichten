@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.MainFragment">
+
+    <LinearLayout
+        android:id="@+id/btmNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_highlight"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <com.kindergeschichten.romanisch.ui.custom.CustomImageView
+            android:id="@+id/imgRoman"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_highlight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            app:imageSrc="@drawable/ic_arrow_right"
+            app:text="Romanisch" />
+
+
+        <com.kindergeschichten.romanisch.ui.custom.CustomImageView
+            android:id="@+id/imgDeutcsh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_highlight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            app:imageSrc="@drawable/ic_arrow_right"
+            app:text="Deutsch" />
+
+
+        <com.kindergeschichten.romanisch.ui.custom.CustomImageView
+            android:id="@+id/imgSelectDialect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_highlight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            app:imageSrc="@drawable/grabun"
+            app:text="Sprache" />
+
+        <com.kindergeschichten.romanisch.ui.custom.CustomImageView
+            android:id="@+id/imgParents"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/main_highlight"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            app:imageSrc="@drawable/icon_parents"
+            app:text="Elternbereich" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

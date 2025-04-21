@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:elevation="10dp"
+    android:id="@+id/cardView"
+    app:cardUseCompatPadding="true">
+
+
+    <ImageView
+        android:id="@+id/imgStoryImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/story_placeholder"
+        app:layout_constraintBottom_toTopOf="@+id/tvDesciption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/day_night_foreground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imgInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="The Moon and The Cap" />
+
+    <TextView
+        android:id="@+id/tvDesciption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/day_night_foreground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgStoryImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgStoryImage"
+        tools:text="A quick brown fox jumps over a lazy dog" />
+
+    <ImageView
+        android:id="@+id/imgInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:src="@drawable/ic_info"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle"
+        app:tint="@color/day_night_foreground" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

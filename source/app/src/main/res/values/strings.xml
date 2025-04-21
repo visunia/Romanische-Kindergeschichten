@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Romanische Kindergeschichten</string>
+
+    <string name="privacy_policy">Datenschutz</string>
+    <string name="rate_us">Rate us</string>
+    <string name="feedback">Contact Us</string>
+    <string name="by_continue">Durch die Nutzung unserer App erklären Sie sich mit unseren Nutzungsbedingungen und Datenschutzrichtlinien einverstanden.</string>
+    <string name="terms_of_use">Nutzungsbedingungen</string>
+    <string name="continue__">Weiter</string>
+    <string name="apply">Anwenden</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_story_language">Wähle das Romanische Idiom</string>
+    <string name="exit_story">Geschichte beenden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="verein_title">Über uns</string>
+    <string name="impressum_title">Impressum</string>
+    <string name="sponsor_title">Unterstützer</string>
+    <string name="settings">Einstellungen</string>
+    <string name="share_title">App weiter empfehlen</string>
+    <string name="rate_title">App bewerten</string>
+
+    <string name="info_supporter_title">Seien Sie ein Teil unserer Geschichte</string>
+    <string name="info_supporter_text">Die Entwicklung von qualitativ hochwertigen Apps für die Romanische Sprache ist für uns mehr als nur eine private Initiative – es ist eine Leidenschaft und ein Akt der Hingabe. Unsere Zielgruppe mag klein sein, doch unsere Ambitionen sind groß. Jede Zeile Code, jedes Designelement und jede Funktion wird mit größter Sorgfalt und Mühe ausgearbeitet, um ein unvergleichliches Benutzererlebnis zu schaffen. Wir geben stets unser Bestes, um Qualität und Innovation zu liefern.\n\nDie Herausforderung liegt jedoch darin, dass die Kosten für die Aufrechterhaltung und Verbesserung der App die Einnahmen aus unserem begrenzten Markt bei weitem übersteigen. Ohne zusätzliche Unterstützung wäre die kontinuierliche Entwicklung und Aktualisierung unserer Apps nicht möglich.\n\nDeshalb bitten wir um Ihre Unterstützung durch unsere In-App-Käufe oder Werbung. Sie stellen eine Möglichkeit dar, unsere Bemühungen zu unterstützen und sicherzustellen, dass wir weiterhin die bestmögliche Erfahrung in der Welt der romanischen Apps bieten können. \n\nWir bedanken uns für Ihre Unterstützung und Ihr Vertrauen in unsere Arbeit. Ihr Beitrag, egal wie oft er wiederholt wird, macht einen bedeutenden Unterschied und ermutigt uns, weiterhin unser Bestes zu geben.\n</string>
+    <string name="app_version">App Version</string>
+
+    <string name="about_us_bullet_1">Biblioteca Engiadinaisa</string>
+    <string name="about_us_bullet_2">Bundesamt für Kultur</string>
+    <string name="about_us_bullet_3">Giunvetetgna Rumantscha GiuRu</string>
+    <string name="about_us_bullet_4">Lia Rumantscha</string>
+    <string name="about_us_bullet_5">Oertli-Stiftung</string>
+    <string name="about_us_bullet_6">Surselva Romontscha</string>
+    <string name="about_us_bullet_7">Uniun Rumantscha Grischun Central</string>
+
+    <string name="about_us_contri_bullet_1">Conradin Klaiss (Sursilvan)</string>
+    <string name="about_us_contri_bullet_2">Fabia Farrer (Surmiran)</string>
+    <string name="about_us_contri_bullet_3">Silena Bühler (Surmiran)</string>
+    <string name="about_us_contri_bullet_4">Gian-Marco Maissen (Puter)</string>
+    <string name="about_us_contri_bullet_5">Arina Carpanetti (Vallader)</string>
+    <string name="about_us_contri_bullet_6">Patrick Vollenweider (Deutsch)</string>
+
+    <string name="about_us_contri_bullet_4_url">https://www.gian-marco-maissen.ch</string>
+
+
+    <string name="about_us_bullet_1_url">https://www.bibliotecasegl.ch</string>
+    <string name="about_us_bullet_2_url">https://www.bak.admin.ch</string>
+    <string name="about_us_bullet_3_url">https://www.giuru.ch</string>
+    <string name="about_us_bullet_4_url">https://www.liarumantscha.ch</string>
+    <string name="about_us_bullet_5_url">https://www.oertlistiftung.ch</string>
+    <string name="about_us_bullet_6_url">https://www.surselva-romontscha.ch</string>
+    <string name="about_us_bullet_7_url">https://www.urgc.ch</string>
+
+    <string name="share_screen_title">Empfehlen Sie uns weiter</string>
+    <string name="share_screen_text">Wir hoffen dass Ihnen unsere App gefällt und Sie diese weiter empfehlen.\nWir freuen uns ebenfalls auf alle Bewertungen.</string>
+
+
+    <string name="email_body">
+       Jemand empfahl Ihnen folgende App:\nRomontsch Sursilvan lernen
+    </string>
+
+
+    <string name="playstore_base_url">https://play.google.com/store/apps/details?id=</string>
+    <string name="romonosh_apps">Romanische Apps</string>
+    <string name="weitere_title">Weitere Produkte</string>
+    <string name="webseite_title">Webseite</string>
+    <string name="romontsch">Romontsch</string>
+    <string name="romontsch_url">https://romanisch.ch</string>
+    <string name="website">https://www.romontsch.ch</string>
+    <string name="representation">Darstellung</string>
+    <string name="light_mode">Hell</string>
+    <string name="dark_mode">Dunkel</string>
+    <string name="system_mode">System</string>
+</resources>

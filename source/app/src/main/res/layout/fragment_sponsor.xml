@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_night_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu"
+            android:text="Unterstützer / Sponsoren" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_sidemenu"
+            android:background="@color/day_night_foreground" />
+
+
+
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu"
+            android:textStyle="bold"
+            android:text="Unser Ziel ist die Förderung und Erhaltung der Rätoromanischen Sprache."
+            android:textColor="@color/day_night_foreground" />
+
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu"
+            android:text="Die Realisierung dieser App wurde ermöglicht durch die Unterstützung von: (Alphabetische Auflistung)"
+            android:textColor="@color/day_night_foreground" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_1"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_1"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_2"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_2"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_3"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_3"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_4"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_4"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_5"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_5"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_6"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_6"
+            android:textColor="@color/text_url" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_7"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_bullet_7"
+            android:textColor="@color/text_url" />
+
+
+
+        <View
+            android:layout_marginTop="@dimen/margin_sidemenu_extended"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_url"/>
+
+        <TextView
+            android:textStyle="bold"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu_extended"
+            android:text="Die Geschichten wurden erzählt von:" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_1"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_1"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_2"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_2"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_3"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_3"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_4"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_4"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_5"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_5"
+            android:textColor="@color/text_url" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/abt_contri_6"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_us_contri_bullet_6"
+            android:textColor="@color/text_url" />
+
+
+
+        <TextView
+            android:textStyle="bold"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu_extended"
+            android:text="Quellcode" />
+
+
+    <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sidemenu"
+            android:text="Den Quellcode der App sowie die dazugehörigen Daten stellen wir interessierten Personen gerne kostenfrei zur Verfügung. Bitte kontaktieren Sie uns, wenn Sie daran interessiert sind." />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

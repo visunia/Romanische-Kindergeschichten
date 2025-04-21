@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_weight="@fraction/product_weight"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/ic_round" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textColor="@color/day_night_foreground"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        tools:text="@string/app_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/text_margin"
+        android:background="@color/day_night_foreground"
+        app:layout_constraintTop_toBottomOf="@id/tvDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>

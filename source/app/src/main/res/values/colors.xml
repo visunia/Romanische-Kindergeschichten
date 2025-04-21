@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#432FBF</color>
+    <color name="day_night_foreground">#000000</color>
+    <color name="day_night_background">#FFFFFF</color>
+
+
+    <color name="text_url">#432FBF</color>
+    <color name="text_primary_to_white">@color/colorAccent</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="highlight_color">#B31A1A1A</color>
+    <color name="black">#111111</color>
+
+    <color name="orange">#DD7541</color>
+    <color name="transBlack">#99000000</color>
+    <color name="transwhite">#99ffffff</color>
+    <color name="royal_blue">#3f51b5</color>
+    <color name="side_menu_secondary_text_color">#333333</color>
+
+    <bool name="statusBarColorLight">false</bool>
+
+
+    <color name="highlight_color_light">#B3FFFFFF</color>
+
+</resources>
