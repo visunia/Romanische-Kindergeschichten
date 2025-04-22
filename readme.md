@@ -1,20 +1,22 @@
-# 📚 Romanisch Kinder Geschichten – Android App
+# 📚 Romanisch Kinder Geschichten
 
-Welcome to the official open-source repository for **Romanisch Kinder Geschichten** – an Android app offering a curated selection of children's stories in the Romansh language.  
+Willkommen im offiziellen Open-Source-Repository für Romanische Kindergeschichten - eine App mit einer kuratierten Auswahl von Kindergeschichten in romanischer Sprache. 
 
 🎉 The app is available for **free** on the Google Play Store:
 👉 [Download on Play Store](https://play.google.com/store/apps/details?id=com.kindergeschichten.romanisch&pli=1)
 
+🎉 The app is available for **free** on the iOS Store:
+👉 [Download on iOS](https://apps.apple.com/app/id1527937638)
 ---
 
 ## ✨ Features
 
-- 📖 Beautifully presented Romansh children's stories  
-- 🌙 Night-friendly dark mode  
-- 🔠 Easy-to-read font size and layout  
-- 📱 Lightweight and offline-friendly  
-- 🧒 Perfect for early readers and families  
-- 🆓 100% free with no sign-up required
+- 📖 Wunderschön präsentierte romanische Kindergeschichten  
+- 🌙 Nachtfreundlicher Dunkelmodus  
+- 🔠 Leicht zu lesende Schriftgröße und Layout  
+- 📱 Leichtgewichtig und offline-freundlich  
+- 🧒 Perfekt für Leseanfänger und Familien  
+- 🆓 100% kostenlos, keine Anmeldung erforderlich
 
 ---
 
